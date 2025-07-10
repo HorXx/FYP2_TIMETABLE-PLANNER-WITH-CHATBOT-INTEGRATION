@@ -24,6 +24,17 @@ Technology Stack
 
 ---
 
+Security Notice: API Keys & Sensitive Files
+------------------------------------------
+**Do NOT upload your real API keys, secrets, or configuration files (such as `google-services.json`, `.env`, or any other secret files) to any public repository.**
+
+- Always add these files to your `.gitignore` before publishing your code.
+- Provide only example files (e.g., `google-services.json.example`, `.env.example`) without real credentials.
+- Each user should configure their own API keys and secrets according to the documentation of the respective service (Firebase, OpenAI, etc.).
+- If you accidentally commit sensitive files, remove them from git history and rotate your keys immediately.
+
+---
+
 1. Prerequisites
 ----------------
 1. **Flutter SDK**
