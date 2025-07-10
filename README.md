@@ -32,6 +32,7 @@ Security Notice: API Keys & Sensitive Files
 - Provide only example files (e.g., `google-services.json.example`, `.env.example`) without real credentials.
 - Each user should configure their own API keys and secrets according to the documentation of the respective service (Firebase, OpenAI, etc.).
 - If you accidentally commit sensitive files, remove them from git history and rotate your keys immediately.
+- - **To use the chatbot feature, you must replace the GPT API key in `lib/services/gpt_service.dart` with your own OpenAI (or other GPT provider) API key.**
 
 ---
 
