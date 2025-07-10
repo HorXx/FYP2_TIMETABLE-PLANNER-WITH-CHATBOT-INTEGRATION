@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/schedule_data.dart';
 
 class GPTService {
-  static const String _apiKey = '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'; // Replace with your actual API key
+  static const String _apiKey = ''; // Replace with your actual API key
   static const String _apiUrl = 'https://api.openai.com/v1/chat/completions';
 
   Future<Map<String, dynamic>> getResponse(String message) async {
